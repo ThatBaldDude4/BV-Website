@@ -72,7 +72,7 @@ h2 {
 }
 
 #key-features {
-    margin: 2px;
+    margin: 30px 2px 2px 2px;
     padding: 10px;
 }
 
@@ -160,7 +160,7 @@ li + p {
     border: 5px solid rgba(0, 0, 0, 0.338);
     margin: 8px 10px;
     background-color: #474747;
-    border-radius: 15px;
+    border-radius: 20px;
     max-width: 40%;
 }
 
@@ -174,7 +174,7 @@ li + p {
     position: sticky;
     top: 0;
     border: 7px solid #8b673c;
-    border-radius: 10px;
+    border-radius: 18px;
     margin: 15px auto;
 }
 
@@ -193,4 +193,8 @@ a {
     box-shadow: 0 0 7px rgb(247, 220, 186);
     margin-top: 60px;
     font-weight: 800;
+}
+
+.black-belt-image {
+    margin-top: 80px;
 }
