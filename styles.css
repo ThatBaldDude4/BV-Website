@@ -14,7 +14,7 @@ body {
 }
 
 .content-page {
-    width: 100vw;
+    width: calc(100vw - 10px);
 }
 
 .section {
@@ -163,6 +163,8 @@ li + p {
     border-radius: 18px;
     max-width: 35%;
     z-index: 3;
+    min-height: 60px;
+    padding: 5px;
 }
 
 .top-nav-bar {
@@ -202,11 +204,14 @@ a {
 }
 
 .hz-belt {
-    max-height: 125px;
-    position: absolute;
-    left: 134px;
-    top: -9px;
+    max-height: 100px;
     z-index: 1;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bv-title-h1 {
